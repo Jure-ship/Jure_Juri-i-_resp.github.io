@@ -20,7 +20,7 @@ body {
         height: 1500px;
     }
 }
-
+/*desktop prva polovica*/
 .header {
     position: relative;
     display: inline-flex;
@@ -129,6 +129,7 @@ body {
         display: none;
     }
 }
+/*desktop druga polovica*/
 .box_3 {
     display: flex;
     flex:2;
@@ -244,6 +245,7 @@ font-style: normal;
     transform: rotate(-90deg);
 }
 @media (min-width: 560px) and (max-width: 1430px) { 
+    /*tablet verzija*/
     .box_2 {
         display: none;
     }
@@ -273,7 +275,6 @@ font-style: normal;
         cursor: pointer;
       }
       
-      /* The container <div> - needed to position the dropdown content */
       .dropdown {
         position: relative;
         display: flex;
@@ -282,8 +283,7 @@ font-style: normal;
         right: auto;
         display: inline-block;
       }
-      
-      /* Dropdown Content (Hidden by Default) */
+      /* Dropdown */
       .dropdown-content {
         display: none;
         position: absolute;
@@ -293,7 +293,6 @@ font-style: normal;
         z-index: 1;
       }
       
-      /* Links inside the dropdown */
       .dropdown-content a {
         color: black;
         padding: 12px 16px;
@@ -301,15 +300,12 @@ font-style: normal;
         display: block;
       }
       
-      /* Change color of dropdown links on hover */
       .dropdown-content a:hover {background-color: #f1f1f1}
-      
-      /* Show the dropdown menu on hover */
+
       .dropdown:hover .dropdown-content {
         display: block;
       }
-      
-      /* Change the background color of the dropdown button when the dropdown content is shown */
+ 
       .dropdown:hover .dropbtn {
         background-color: #A75B12;
       }
@@ -327,7 +323,7 @@ font-style: normal;
 }
 
 @media only screen and (max-width: 768px) {
-    
+    /*mobilna verzija*/
     .header {
         position: relative;
         display: inline-flex;
@@ -380,6 +376,7 @@ font-style: normal;
     }
 }
 @media only screen and (min-width: 768px) {
+    /*micanje klasa desktopa iz mobitela*/
     .paragraf {
         display: none;
     }
@@ -404,6 +401,7 @@ font-style: normal;
 }
 
 @media only screen and (max-width: 768px) {
+    /*druga polovica mobitela*/
     .box_1 .slika2 {
         display: none;
     }
