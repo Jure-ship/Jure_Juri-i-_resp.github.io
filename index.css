@@ -327,7 +327,7 @@ font-style: normal;
     .header {
         position: relative;
         display: inline-flex;
-        left: 25%;
+        left: 37%;
         top: 0%;
     }
     .header .icon1 { 
@@ -504,7 +504,7 @@ font-style: normal;
         display: flex;
         color: #ffffff;
         margin-top: 265px;
-        left: 25%;
+        left: 37%;
         z-index: 3;
     }
     .header1 .icon1 { 
@@ -516,12 +516,11 @@ font-style: normal;
     .slika11 {
         position: absolute;
         display: flex;
-        left: -22%;
+        left: -34%;
         right: auto;
         top:110px;
         margin-bottom: 0px;
-        
-        
+          
     }
 }
 
