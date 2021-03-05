@@ -94,26 +94,28 @@ body {
 }
 .box_2 {
     display: flex;
+    right:0;
     width: 20%;
     flex: 2;
     order: 2;
 }
     
 .box_2 .dvije_slike {
-    display: block;
+  margin-right:0;
+    width:auto;
+    height:auto;
     float: right;
 }
 .box_2 .dvije_slike .slika4 {
     position:absolute;
     top:164px;
-    left: 68.5%;
+    right: 339px;
     margin-right: 0;
     z-index: 1;
 }
 .box_2 .dvije_slike .slika5 {
     position: absolute;
-    margin-right: 0;
-    left: 68.5%;
+    right: 339px;
     z-index: 1;
     margin-top: -30px;
 }
@@ -322,7 +324,7 @@ font-style: normal;
     .dropdown { display: none; } 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /*mobilna verzija*/
     .header {
         position: relative;
@@ -400,7 +402,7 @@ font-style: normal;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /*druga polovica mobitela*/
     .box_1 .slika2 {
         display: none;
