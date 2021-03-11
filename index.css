@@ -524,7 +524,6 @@ font-style: normal;
           
     }
 }
-
 .infobox {
     position: relative;
     width: 911.04px;
@@ -532,7 +531,6 @@ font-style: normal;
     left: 120px;
     top: 70px;
 }
-
 .infobox .tekst {
     display: flex;
 font-family: 'Rubik', sans-serif;
@@ -585,4 +583,5 @@ width: 396.44px;
       right: 50%;
       text-align: right;
   }
+
 
