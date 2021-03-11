@@ -105,7 +105,7 @@ body {
 }
 .box_2 .dvije_slike .slika4 {
     position:absolute;
-    top:134px;
+    top:144px;
     left: 69.5%;
     margin-right: 0;
     z-index: 1;
@@ -113,11 +113,10 @@ body {
 .box_2 .dvije_slike .slika5 {
     position: absolute;
     margin-right: 0;
-    margin-top:0;
     left: 69.5%;
     z-index: 1;
+    margin-top:-68px;
 }
-
 @media only screen and (max-width: 768px) {
     .slika1 {
         display: none;
